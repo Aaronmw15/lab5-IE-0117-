@@ -10,4 +10,11 @@ Para compilar, se deben escribir los siguientes comando en la terminal desde est
   cd build
   cmake ..
   make
+ejecutar con ./lab5_CMAKE
 
+Para compilar con meson se debe tener meson instalado, se puede hacer con el siguiente comando: sudo apt install meson ninja-build libcjson-dev. Además de tener la biblioteca cJSON.
+Para compilar se deben utilizar los siguientes comandos:
+meson setup build
+meson compile -C build
+
+ejecutar con ./build/json_meson
